@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRALIN by Abajoo</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Body */
+        body {
+            background-color: #f7f7f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Running Text */
+        .running-text {
+            background-color: #f28c28;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .running-text p {
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Header Section */
+        header {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            background-color: #f28c28;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #d97722;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 900px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #2ecc71;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Running Text -->
+    <div class="running-text">
+        <p>DISKON SPESIAL untuk pengguna VIRALIN di bulan Oktober ini! Hubungi CS di 0851-7973-4700</p>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Buat Bisnismu Viral dalam Hitungan Hari dengan VIRALIN by Abajoo</h1>
+        <p>Pelanggan datang lebih cepat, promosi lebih tepat sasaran. Lihat bagaimana Pak Anton mengubah nasib kafenya hanya dengan satu strategi sederhana.</p>
+        <button class="cta-button">Mulai Sekarang</button>
+    </header>
+
+    <!-- Tantangan Section -->
+    <section id="tantangan">
+        <h2>Kafe Strategis, Tapi Sepi Pengunjung?</h2>
+        <p>Pemilik Kafe Seru Bareng, Pak Anton, memiliki masalah besar. Meski lokasinya strategis, kafenya masih saja sepi. Orang-orang di sekitar kafe bahkan belum tahu kalau kafe tersebut ada.</p>
+    </section>
+
+    <!-- Solusi Section -->
+    <section id="solusi">
+        <h2>Solusi yang Mengubah Segalanya</h2>
+        <p>Dengan bantuan <strong>VIRALIN by Abajoo</strong>, Pak Anton mengirimkan pesan promosi langsung ke warga sekitar melalui WhatsApp. Pesan tersebut berisi diskon dan promosi menarik yang dengan cepat menjangkau target pelanggan.</p>
+    </section>
+
+    <!-- Hasil Section -->
+    <section id="hasil">
+        <h2>Pengunjung Mulai Berdatangan!</h2>
+        <p>Dalam hitungan hari, Pak Anton mulai melihat peningkatan jumlah pengunjung di kafenya. Promosi tepat sasaran yang dikirim melalui <strong>VIRALIN</strong> terbukti sangat efektif.</p>
+    </section>
+
+    <!-- Penawaran Section -->
+    <section id="penawaran">
+        <h2>Ingin Bisnis Kamu Juga Viral?</h2>
+        <p>Apakah kamu menghadapi tantangan yang sama seperti Pak Anton? Dengan <strong>VIRALIN by Abajoo</strong>, bisnismu juga bisa viral dan dikenal banyak orang.</p>
+        <button class="cta-button">Coba Sekarang</button>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Buat Bisnismu Viral Sekarang dengan VIRALIN by Abajoo</h3>
+        <button class="cta-button">Daftar Sekarang</button>
+    </footer>
+
+    <script>
+        // Smooth scroll for CTA buttons
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', () => {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
